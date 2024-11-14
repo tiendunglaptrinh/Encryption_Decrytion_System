@@ -33,9 +33,12 @@ def run_multiple_caesar_railfence_cipher(plaintext: str, caesar_key: int,  rails
     print("Plaintext: ", decrypted_text)
     
 def main():
-     plaintext = "HELLO EVERYONE, TODAY I WILL RESEARCH ABOUT TWO METHODS ECRYPTION AND DECRYPTION. THERE ARE CAESAR CIPHER AND RAIL FENCE CIPHER."
-     
-     run_caesar_cipher(plaintext, key=11120)
+    #  plaintext = "HELLO EVERYONE, TODAY I WILL RESEARCH ABOUT TWO METHODS ECRYPTION AND DECRYPTION. THERE ARE CAESAR CIPHER AND RAIL FENCE CIPHER."
+     plaintext = "GeeksforGeeks"
+    #  print("plaintext[0]", plaintext[1])
+    #  run_caesar_cipher(plaintext, key=11120)
 
-    #  run_rail_fence_cipher(plaintext, rails=4)
+     run_rail_fence_cipher(plaintext, rails=3)
     #  run_multiple_caesar_railfence_cipher(plaintext, caesar_key=3, rails_rail_fence=5)
+    
+    
