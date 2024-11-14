@@ -173,8 +173,8 @@ def main():
             print("|                                                                |")
             print("------------------------------------------------------------------")
     elif option == 4:
-        length = int(input("|   ENTER YOUR LENGTH OF CIPHER YOU WANT: ",))
-        text_encrypted = RandomCiphertext(length)
+        plaintext = input("|   ENTER YOUR PLAINTEXT  YOU WANT: ",)
+        text_encrypted = RandomCiphertext(plaintext)
         wrapped_text = textwrap.fill(text_encrypted, width=50)
         print("|                                                                |")
         print("|         ------------RESULT RANDOM CIPHERTEXT-----------        |")

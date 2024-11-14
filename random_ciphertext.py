@@ -4,15 +4,9 @@ from caesar_cipher import CaesarCipher
 from rail_fence_cipher import RailFenceCipher
 from multiple_caesar_railfence_cipher import MultipleCaesarRailFence
 
-def generate_random_plaintext(length: int) -> str:
-    # Tạo một chuỗi ngẫu nhiên gồm các ký tự từ a-z, A-Z và số
-    characters = string.ascii_letters + string.digits + string.punctuation + " "  # Thêm khoảng trắng vào nếu cần
-    random_plaintext = ''.join(random.choice(characters) for _ in range(length))
-    return random_plaintext
 
-def RandomCiphertext(length: int) -> str:
+def RandomCiphertext(plaintext) -> str:
     random_num = random.randint(1, 3)
-    plaintext = generate_random_plaintext(length)
     random_text = ""
     
     # Caesar cipher
