@@ -13,6 +13,6 @@ class MultipleCaesarRailFence:
     
     def decrypt(self, ciphertext: str) -> str:
         rail_fence_decrypted = self.rail_fence.decrypt(ciphertext)
-        result_plaintex = self.caesar.decrypt(rail_fence_decrypted)
-        return result_plaintex
+        result_plaintext = self.caesar.decrypt(rail_fence_decrypted)
+        return result_plaintext
     

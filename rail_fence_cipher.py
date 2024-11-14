@@ -16,8 +16,6 @@ class RailFenceCipher:
         # Implement
         # Write in matrix
         for i in range(length_matrix):
-            print('row: ', row)
-            print('col: ', col)
             matrix_cipher[row][col] = plaintextTrim[i]
             if row==0 or row==num_rails-1:
                  direction *= -1
