@@ -8,8 +8,8 @@ def run_caesar_cipher(plaintext: str, key: int):
     decrypted_text = caesar_cipher_obj.decrypt(encrypted_text)
     
     print('----------------------------------------------------------------------------------------------------')
-    print("Caesar Cipher is running:")
-    print("Cipherttext: ", encrypted_text)
+    print("Caesar Cipher is running...")
+    print("Ciphertext: ", encrypted_text)
     print("Plaintext: ", decrypted_text)
     
 def run_rail_fence_cipher(plaintext: str, rails: int):
@@ -18,8 +18,8 @@ def run_rail_fence_cipher(plaintext: str, rails: int):
     decrypted_text = rail_fence_cipher_obj.decrypt(encrypted_text)
     
     print('----------------------------------------------------------------------------------------------------')
-    print("Rail Fence is running:")
-    print("Cipherttext: ", encrypted_text)
+    print("Rail Fence is running...")
+    print("Ciphertext: ", encrypted_text)
     print("Plaintext: ", decrypted_text)
     
 def run_multiple_caesar_railfence_cipher(plaintext: str, caesar_key: int,  rails_rail_fence: int):
@@ -28,13 +28,14 @@ def run_multiple_caesar_railfence_cipher(plaintext: str, caesar_key: int,  rails
     decrypted_text = caesar_rail_fence_cipher_obj.decrypt(encrypted_text)
     
     print('----------------------------------------------------------------------------------------------------')
-    print("Multiple Caesar and Rail fence is running:")
-    print("Cipherttext: ", encrypted_text)
+    print("Multiple Caesar and Rail fence is running...")
+    print("Ciphertext: ", encrypted_text)
     print("Plaintext: ", decrypted_text)
     
 def main():
-     plaintext = "HELLO WORLD"
+     plaintext = "HELLO EVERYONE, TODAY I WILL RESEARCH ABOUT TWO METHODS ECRYPTION AND DECRYPTION. THERE ARE CAESAR CIPHER AND RAIL FENCE CIPHER."
      
-     run_caesar_cipher(plaintext, key=3)
-     run_rail_fence_cipher(plaintext, rails=4)
-     run_multiple_caesar_railfence_cipher(plaintext, caesar_key=3, rails_rail_fence=5)
+     run_caesar_cipher(plaintext, key=11120)
+
+    #  run_rail_fence_cipher(plaintext, rails=4)
+    #  run_multiple_caesar_railfence_cipher(plaintext, caesar_key=3, rails_rail_fence=5)
